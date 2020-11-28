@@ -1,0 +1,89 @@
+body {
+    font-family: "Lato", sans-serif;
+    margin: 0;
+}
+
+.menu {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: white(255, 250, 250);
+    overflow-x: hidden;
+    padding-top: 15px;
+}
+.menu a, .knopka {
+    padding: 22px 1px 20px 10px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+    border: none;
+    background: none;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+}
+
+
+.menu a:hover, .knopka:hover {
+    color: #bbbbbb;
+}
+
+.main {
+    margin-left: 200px; 
+    font-size: 20px; 
+    padding: 0px 30px;
+}
+
+.active {
+    background-color: rgb(172, 177, 173);
+    color: white;
+}
+
+.submenu {
+    display: none;
+    background-color: #f5f5f5;
+    padding-left: 8px;
+}
+
+.fa-caret-down {
+    float: right;
+    padding-right: 8px;
+}
+
+.photo {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: 120vh;
+}
+.phon {
+    background-color: grey;
+    padding: 20px;
+}
+.video {
+    text-align: center;
+    padding: 100px;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+    background-color: white;
+}
+
+th, td {
+    text-align: left;
+    padding: 16px;
+}
+.top {
+    background-color: rgb(248, 248, 248);
+    padding: 5px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 100;
+    font-stretch: expanded;
+}
